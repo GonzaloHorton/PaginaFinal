@@ -1,0 +1,169 @@
+.wepo{
+    font-size: 15px;
+    font-weight: 400;
+}
+.te{
+    font-size: 13px;
+}
+
+.fron{
+    background: darkslategrey;
+    color: white;
+}
+
+.quef{
+    margin-bottom: 50px;
+}
+
+.mgr{
+    /* margin-left: 5px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:40px;
+}
+.mtq{
+    padding-top: 25px;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.one{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.habi{
+    background: white;
+    color: black;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.check{
+    margin-right: 20px;
+    position: relative;
+    width:30px;
+    height: 30px;
+}
+
+/* Perfiles */
+
+.perfiles{
+    margin-bottom: 50px;
+}
+.margcon{
+    margin-bottom: 100px;
+    margin-top:50px;
+}
+.imgperfil{
+    border-radius: 100%;
+    border: black solid 1px;
+    width:100px;
+    height: 100PX;
+    margin-left: 70px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background:url(/images/fotosPerfiles/index.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.textperfil{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.btnconocer{
+    writing-mode: vertical-lr;
+} 
+
+.mbperfiles{
+    margin-bottom: 150px;
+}
+
+
+
+
+/* Popup Logeo */
+
+.overlay{
+    background: rgba(0, 0, 0,.1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.olv{
+    color: black
+}
+.active{
+    visibility: visible;
+}
+
+.cerrar{
+    margin-left: 97%;
+}
+
+.btn-cerrar-pop{
+    color: #bbbbbb;
+    transition: .0s  ease all;
+}
+
+.btn-cerrar-pop:hover{
+    color: darkslategrey;
+}
+
+.textlogin{
+    font-size: 20px;
+    /* left: 100px; */
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.popup{
+    background: darkslategrey;
+    color: white;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    padding-left: 50px;
+    padding-right:50px;
+
+}
+
+body{
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.modal-title{
+    font-size: 15px;
+    text-align: center;
+}
+ .headermessa{
+    /* background: rgb(226, 233, 226); */
+ }
+
+ .headermodal{
+     background: darkslategray;
+     color: white;
+ }
+
+ .desmodel{
+     font-size:20px;
+ }
+ .destext{
+    font-weight:200;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+ }
+
+ .habimodel{
+     font-size:15px;
+     height: 250px;
+ }
+
+.headercolor{
+    border-right: #ccc solid 1px;
+}

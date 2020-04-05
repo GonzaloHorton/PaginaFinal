@@ -22,7 +22,7 @@ router.post('/', async (req,res,next)=> {
   let result = await usuariosModel.createUser(objUsr);
   
   if(result){
-    res.render('registro', {status : true,message : 'Registro exitoso'});
+    await res.render('RegistroExitoso');
   } else {
     res.render('registro', {status : false,message : 'Error'}); 
   }

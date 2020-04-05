@@ -7,7 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const registroRouter = require('./routes/registro');
-const loginRouter = require('./routes/login')
+const loginRouter = require('./routes/login');
+const frontEndRouter = require('./routes/frontEnd');
+const disenadoresRouter = require('./routes/disenadores');
+const backEndRoutes = require('./routes/backEnd');
+
 
 var app = express();
 
@@ -25,6 +29,9 @@ app.use('/index', indexRouter);
 app.use('/users', usersRouter);
 app.use('/registro', registroRouter);
 app.use('/login', loginRouter);
+app.use('/frontEnd', frontEndRouter);
+app.use('/disenadores', disenadoresRouter);
+app.use('/backEnd', backEndRoutes);
 
 
 

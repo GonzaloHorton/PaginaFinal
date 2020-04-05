@@ -1,11 +1,14 @@
+<link rel='stylesheet' href="/stylesheets/registro.css">
+
 <body>
-                {{#if status}}
-                <h5 class="text-center text-success mt-3">{{message}}</h5>
-                {{else}}
-                <h5 class="text-center text-danger mt-3">{{message}}</h5>
-                {{/if}}
-   <div class="container col-5 margin bg-light">
-        <form action="/registro" method="post" class="row">
+    <a href="/index" class="d-flex flex-column justify-content-center volverinicio">
+    
+    <div class="d-flex justify-content-center"><img src="/images/png/005-xing.png" alt="" width="40px" class=""></div> 
+    <p class=" d-flex justify-content-center volvertext">Inicio</p>
+    </a>
+
+   <div class="container col-6 margin">
+        <form action="/registro" method="post" class="row" id="form1" name="form1">
                 <div class="form-group col-6">
                     <label for="nombre">Nombre</label>
                     <input type="text" class="form-control" autofocus placeholder="nombre" id="nombre" name="nombre">
@@ -20,13 +23,13 @@
                 </div>
                 <div class="form-group col-12">
                     <label for="telefono">Telefono</label>
-                    <input type="text" class="form-control" placeholder="Contraseña" name="telefono">
+                    <input type="text" class="form-control" placeholder="Telefono" name="telefono" id="telefono">
                 </div>
-                <div class="form-group col-12">
+                <div class="form-group col-6">
                     <label for="password">Contraseña</label>
                     <input type="password" class="form-control" placeholder="Contraseña" id="pw1">
                 </div>
-                <div class="form-group col-12">
+                <div class="form-group col-6">
                     <label for="password2">Repetir Contraseña</label>
                     <input type="password" class="form-control " placeholder="Contraseña" id="pw2" onkeyup="comparar()" name="password">
                 </div>
@@ -35,16 +38,17 @@
                     <label for="fecha">Fecha de nacimiento</label>
                     <input type="date" class="form-control " id="pw2 fecha" onkeyup="comparar()" name="fecha">
                 </div>
-                <div class="col-12 d-flex justify-content-center"><samp id="pwds"></samp></div> 
+                <div class="col-12 d-flex justify-content-center"><samp id="pwds "></samp></div> 
                 <div class="form-check mb-4 col-12 d-flex justify-content-center">
                     <label class="form-check-label d-flex ">
-                    <input type="checkbox" name="terminos" id="terminos" class="form-chek-input mr-2">Acepto Terminos y Condiciones.
+                    <input type="checkbox" name="terminos" id="terminos" class="form-chek-input mr-2" value="on">Acepto Terminos y Condiciones.
                     </label>
                 </div>
-            <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+            <button type="submit" class=" btn btn-outline-light btn-block" id="btnsend" onmouseover="registro()" name="btnsend">Registrarse</button>
         
         </form>
         </div>
+                <div class="col-12 d-flex justify-content-center mt-1 merror"><samp class="errordatos errord merror" id="errordatos"></samp></div> 
     </div> 
 
 <script src="/javascripts/botones.js"></script>

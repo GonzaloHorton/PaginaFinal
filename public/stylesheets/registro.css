@@ -1,0 +1,50 @@
+.marginex{
+ padding-top: 25vh;
+}
+
+.marginregistroexitoso{
+    margin-bottom:300px;
+}
+
+.margin{
+
+    margin-top:20px;
+    top:-65px;
+    color: white;
+    background: darkslategrey;
+    padding: 25px;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    padding-right:80px;
+    padding-left:80px;
+
+}
+
+.errordatos{
+    font-family:Ubuntu ;
+    color: red;
+    margin-top: 5px;
+}
+
+.volver{
+    display: inline;
+    position: relative;
+}
+.merror{
+    position: relative;
+    top: -35px;
+}
+
+.volverinicio{
+    width: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.volverinicio:hover {
+    text-decoration: none;
+}
+
+.volvertext{
+    font-size: 13px;
+    font-family:Ubuntu ;
+    color: black;
+}
